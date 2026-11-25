@@ -18,8 +18,8 @@ typedef struct pet {
 } pet;
 typedef struct lista_pet{
     pet dados;
-    struct pet *prox;
-    struct pet *ant;
+    struct lista_pet *prox;
+    struct lista_pet *ant;
 }lista_pet;
 
 int inserir_pet(lista_pet **p,pet *np);
