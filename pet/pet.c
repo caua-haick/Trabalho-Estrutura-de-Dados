@@ -5,21 +5,22 @@
 #include "pet.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
-int inserir_pet(pet **p) {
+int inserir_pet(lista_pet **p, pet *np) {
     //inserir pet e escrever no arquivo
-    pet *novo = (pet *) malloc(sizeof(pet));
+    lista_pet *novo = (lista_pet *) malloc(sizeof(lista_pet));
     if (!novo) {
         printf("Erro em alocar memoria");
         return 0;
     }
-    novo->codigo = c;
-    novo->nome = n;
-    novo->codigo_pessoa = cp;
-    novo->codigo_tipo_pet = ctp;
+    novo->dados.codigo = np->codigo;
+    strcpy(novo->dados.nome, np->nome);
+    novo->dados.codigo_pessoa = np->codigo_pessoa;
+    novo->dados.codigo_tipo_pet = np->codigo_tipo_pet;
     novo->ant = NULL;
     novo->prox = NULL;
-    pet* aux = *p;
+    lista_pet* aux = *p;
     if (!aux) {
         *p = novo;
         return 1;
@@ -32,12 +33,12 @@ int inserir_pet(pet **p) {
     return 1;
 };
 
-int remover_pet(pet **p) {
+int remover_pet(lista_pet **p) {
     if (!*p) {
         printf("Fila vazia!");
         return 0;
     }
-    struct pet* aux = *p;
+    lista_pet* aux = *p;
     *p = aux->prox;
     if (*p) {
         (*p)->ant = NULL;
