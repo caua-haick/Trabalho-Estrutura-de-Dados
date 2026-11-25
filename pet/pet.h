@@ -22,10 +22,11 @@ typedef struct lista_pet{
     struct pet *ant;
 }lista_pet;
 
-int inserir_pet(pet **p);
+int inserir_pet(lista_pet **p,pet *np);
 
-int remover_pet(pet **p);
+int remover_pet(lista_pet **p);
 
 int inserir_processos_pet(processos_pet** p);
 
+void Realizar_Processo(lista_pet **p);
 #endif //TRABALHO_AJALMAR_PET_H

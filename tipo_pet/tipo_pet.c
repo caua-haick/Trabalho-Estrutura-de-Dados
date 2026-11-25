@@ -13,8 +13,8 @@ int inserir_tipo_pet(tipo_pet **p) {
         printf("Erro em alocar memoria");
         return 0;
     }
-    novo->codigo = c;
-    novo->nome = n;
+    //novo->codigo = ;
+    //novo->nome = n;
     novo->ant = NULL;
     novo->prox = NULL;
     tipo_pet* aux = *p;
