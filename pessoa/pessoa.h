@@ -10,7 +10,15 @@ typedef struct pessoa {
     int fone;
     char endereco[100];
     char nascimento[11];
+} pessoa;
+typedef struct lista_pessoa{
+    pessoa dados;
     struct pessoa *prox;
     struct pessoa *ant;
-} pessoa;
+}lista_pessoa;
+
+int inserir_pessoa(pessoa **p);
+
+int remover_pessoa(pessoa **p);
+
 #endif //TRABALHO_AJALMAR_PESSOA_H

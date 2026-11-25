@@ -4,9 +4,9 @@ project(trabalho_ajalmar C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(trabalho_ajalmar main.c
-        pet.c
-        pet.h
-        pessoa.c
-        pessoa.h
-        tipo_pet.c
-        tipo_pet.h)
+        pet/pet.c
+        pet/pet.h
+        pessoa/pessoa.c
+        pessoa/pessoa.h
+        tipo_pet/tipo_pet.c
+        tipo_pet/tipo_pet.h)

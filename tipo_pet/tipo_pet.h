@@ -10,6 +10,12 @@ typedef struct tipo_pet {
     struct tipo_pet *prox;
     struct tipo_pet *ant;
 } tipo_pet;
+typedef struct lista_tipo_pet{
+    tipo_pet dados;
+    struct tipo_pet *prox;
+    struct tipo_pet *ant;
+}lista_tipo_pet;
+
 
 int inserir_processos_tipo_pet();
 
