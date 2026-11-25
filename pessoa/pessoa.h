@@ -4,21 +4,25 @@
 
 #ifndef TRABALHO_AJALMAR_PESSOA_H
 #define TRABALHO_AJALMAR_PESSOA_H
+
 typedef struct pessoa {
     int codigo;
     char nome[50];
-    int fone;
+    char fone[20];       // Alterado para vetor de char para aceitar caracteres como parênteses/traços se necessário
     char endereco[100];
     char nascimento[11];
 } pessoa;
-typedef struct lista_pessoa{
+
+typedef struct lista_pessoa {
     pessoa dados;
-    struct pessoa *prox;
-    struct pessoa *ant;
-}lista_pessoa;
+    struct lista_pessoa *prox; // Corrigido para struct lista_pessoa
+    struct lista_pessoa *ant;  // Corrigido para struct lista_pessoa
+} lista_pessoa;
 
-int inserir_pessoa(pessoa **p);
+// Alterado para receber lista_pessoa ** e um ponteiro para pessoa *np
+int inserir_pessoa(lista_pessoa **p, pessoa *np);
 
-int remover_pessoa(pessoa **p);
+// Alterado para receber lista_pessoa **
+int remover_pessoa(lista_pessoa **p);
 
-#endif //TRABALHO_AJALMAR_PESSOA_H
+#endif //TRABALHO_AJALMAR_PESSOA_Hw
