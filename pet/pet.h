@@ -4,6 +4,7 @@
 
 #ifndef TRABALHO_AJALMAR_PET_H
 #define TRABALHO_AJALMAR_PET_H
+#include "../processo/processo.h"
 typedef struct processos_pet {
     char nome[50];
     char descricao[50];
@@ -26,7 +27,5 @@ int inserir_pet(lista_pet **p,pet *np);
 
 int remover_pet(lista_pet **p);
 
-int inserir_processos_pet(processos_pet** p);
-
-void Realizar_Processo(lista_pet **p);
+void Realizar_Processo(processo **fila_pet);
 #endif //TRABALHO_AJALMAR_PET_H

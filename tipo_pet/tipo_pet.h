@@ -24,4 +24,5 @@ int inserir_tipo_pet(lista_tipo_pet **p, tipo_pet *np);
 // Alterado para receber ponteiro para lista_tipo_pet **
 int remover_tipo_pet(lista_tipo_pet **p);
 
+int interpretar_insert_tipo_pet(const char *descricao, tipo_pet *t);
 #endif //TRABALHO_AJALMAR_TIPO_PET_H

@@ -47,3 +47,13 @@ int remover_tipo_pet(lista_tipo_pet **p) {
     free(aux);
     return 1;
 }
+
+int interpretar_insert_tipo_pet(const char *descricao, tipo_pet *t) {
+    int fim = 0;
+
+    sscanf(descricao,
+           "INSERT INTO tipo_pet (codigo, nome) VALUES (%d, '%49[^']');%n",
+           &t->codigo, t->nome, &fim);
+
+    return fim > 0;
+}

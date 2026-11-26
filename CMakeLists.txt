@@ -9,4 +9,6 @@ add_executable(trabalho_ajalmar main.c
         pessoa/pessoa.c
         pessoa/pessoa.h
         tipo_pet/tipo_pet.c
-        tipo_pet/tipo_pet.h)
+        tipo_pet/tipo_pet.h
+        processo/processo.c
+        processo/processo.h)

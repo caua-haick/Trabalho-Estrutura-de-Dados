@@ -46,3 +46,14 @@ int remover_pet(lista_pet **p) {
     free(aux);
     return 1;
 }
+
+int interpretar_insert_pet(const char *descricao, pet *p) {
+    int fim = 0;
+
+    sscanf(descricao,
+           "INSERT INTO pet (codigo, codigo_pessoa, nome, codigo_tipo_pet) "
+           "VALUES (%d, %d, '%49[^']', %d);%n",
+           &p->codigo, &p->codigo_pessoa, p->nome, &p->codigo_tipo_pet, &fim);
+
+    return fim > 0;
+}
