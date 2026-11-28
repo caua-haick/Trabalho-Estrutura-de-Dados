@@ -1,12 +1,14 @@
-cmake_minimum_required(VERSION 4.4)
-project(trabalho_ajalmar C)
+cmake_minimum_required(VERSION 4.2)
+project(TesteTrabalho C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(trabalho_ajalmar main.c
-        pet/pet.c
-        pet/pet.h
+add_executable(TesteTrabalho main.c
         pessoa/pessoa.c
         pessoa/pessoa.h
+        pet/pet.c
+        pet/pet.h
+        processo/processo.c
+        processo/processo.h
         tipo_pet/tipo_pet.c
         tipo_pet/tipo_pet.h)

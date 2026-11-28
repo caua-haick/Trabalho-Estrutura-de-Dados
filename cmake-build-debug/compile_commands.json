@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/Kaio Marcos/CLionProjects/TesteTrabalho/cmake-build-debug",
+  "command": "C:\\CLion-2026.1.4.win\\bin\\mingw\\bin\\gcc.exe -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles\\TesteTrabalho.dir\\main.c.obj -c \"C:\\Users\\Kaio Marcos\\CLionProjects\\TesteTrabalho\\main.c\"",
+  "file": "C:/Users/Kaio Marcos/CLionProjects/TesteTrabalho/main.c",
+  "output": "C:/Users/Kaio Marcos/CLionProjects/TesteTrabalho/cmake-build-debug/CMakeFiles/TesteTrabalho.dir/main.c.obj"
+},
+{
+  "directory": "C:/Users/Kaio Marcos/CLionProjects/TesteTrabalho/cmake-build-debug",
+  "command": "C:\\CLion-2026.1.4.win\\bin\\mingw\\bin\\gcc.exe -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles\\TesteTrabalho.dir\\pessoa\\pessoa.c.obj -c \"C:\\Users\\Kaio Marcos\\CLionProjects\\TesteTrabalho\\pessoa\\pessoa.c\"",
+  "file": "C:/Users/Kaio Marcos/CLionProjects/TesteTrabalho/pessoa/pessoa.c",
+  "output": "C:/Users/Kaio Marcos/CLionProjects/TesteTrabalho/cmake-build-debug/CMakeFiles/TesteTrabalho.dir/pessoa/pessoa.c.obj"
+},
+{
+  "directory": "C:/Users/Kaio Marcos/CLionProjects/TesteTrabalho/cmake-build-debug",
+  "command": "C:\\CLion-2026.1.4.win\\bin\\mingw\\bin\\gcc.exe -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles\\TesteTrabalho.dir\\pet\\pet.c.obj -c \"C:\\Users\\Kaio Marcos\\CLionProjects\\TesteTrabalho\\pet\\pet.c\"",
+  "file": "C:/Users/Kaio Marcos/CLionProjects/TesteTrabalho/pet/pet.c",
+  "output": "C:/Users/Kaio Marcos/CLionProjects/TesteTrabalho/cmake-build-debug/CMakeFiles/TesteTrabalho.dir/pet/pet.c.obj"
+},
+{
+  "directory": "C:/Users/Kaio Marcos/CLionProjects/TesteTrabalho/cmake-build-debug",
+  "command": "C:\\CLion-2026.1.4.win\\bin\\mingw\\bin\\gcc.exe -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles\\TesteTrabalho.dir\\processo\\processo.c.obj -c \"C:\\Users\\Kaio Marcos\\CLionProjects\\TesteTrabalho\\processo\\processo.c\"",
+  "file": "C:/Users/Kaio Marcos/CLionProjects/TesteTrabalho/processo/processo.c",
+  "output": "C:/Users/Kaio Marcos/CLionProjects/TesteTrabalho/cmake-build-debug/CMakeFiles/TesteTrabalho.dir/processo/processo.c.obj"
+},
+{
+  "directory": "C:/Users/Kaio Marcos/CLionProjects/TesteTrabalho/cmake-build-debug",
+  "command": "C:\\CLion-2026.1.4.win\\bin\\mingw\\bin\\gcc.exe -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles\\TesteTrabalho.dir\\tipo_pet\\tipo_pet.c.obj -c \"C:\\Users\\Kaio Marcos\\CLionProjects\\TesteTrabalho\\tipo_pet\\tipo_pet.c\"",
+  "file": "C:/Users/Kaio Marcos/CLionProjects/TesteTrabalho/tipo_pet/tipo_pet.c",
+  "output": "C:/Users/Kaio Marcos/CLionProjects/TesteTrabalho/cmake-build-debug/CMakeFiles/TesteTrabalho.dir/tipo_pet/tipo_pet.c.obj"
+}
+]

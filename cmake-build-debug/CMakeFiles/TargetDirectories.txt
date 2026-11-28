@@ -1,0 +1,3 @@
+C:/Users/Kaio Marcos/CLionProjects/TesteTrabalho/cmake-build-debug/CMakeFiles/TesteTrabalho.dir
+C:/Users/Kaio Marcos/CLionProjects/TesteTrabalho/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Kaio Marcos/CLionProjects/TesteTrabalho/cmake-build-debug/CMakeFiles/rebuild_cache.dir
